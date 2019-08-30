@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header {
+	
+	background-color: #ccc;
+}
+.logo {
+    
+    padding: 8px 0px 0px 11px;
+}
+.menu{
+
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 13px 25px;
+}
+.menu ul li a{
+	text-decoration: none;
+}
+.hero{
+	background-image: url(../img/heropic.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+.overlay {
+    background-color: #00000059;
+}
+.banner h1 {
+    text-align: center;
+    padding: 19% 0px 8px 0px;
+}
+.banner h4{
+	text-align: center;
+}
+
+
+.btn1 {
+    display: block;
+    margin: auto;
+    background: #258c25;
+    border: none;
+    padding: 3px 17px;
+    color: white;
+    border-radius: 3px;
+    margin: 59px auto 90px;
+}
+.icon{
+	background-color: #f7eeee05;
+}
+.icon img{
+	display: block;
+	margin: 40px auto 30px;
+}
+.icon h1{
+	text-align: center;
+}
+.icon p{
+	text-align: center;
+	padding: 20px 20px 0px 20px;
+}
+.icon .text{
+	padding: 20px 20px 50px 20px;
+}
+.two img {
+    display: block;
+    margin: 50% auto 0px;
+}
+.part1{
+	background-color: yellow;
+
+}
+.part2{
+	background-color: #ccc;
+	
+}
+.two h3 {
+    margin: 30% auto 12px;
+}
+.btn2{
+	
+    background: #258c25;
+    border: none;
+    padding: 3px 17px;
+    color: white;
+    border-radius: 3px;
+    margin: 0 0 30px 0;
+}
+@media (max-width: 576px){
+	.menu ul li {
+    display: inline-block;
+    padding: 13px 10px;
+}
+.two img {
+    display: block;
+    margin: 20px auto  0px ;
+    
+}
+.two h3 {
+    margin: 20px 0px;
+}
+}
